@@ -1,2 +1,3 @@
-FROM jboss/wildfly:10.0.0.Final
-EXPOSE 8080 8888
+FROM openshift/wildfly-100-centos7
+
+CMD $STI_SCRIPTS_PATH/run
